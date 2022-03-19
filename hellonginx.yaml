@@ -14,10 +14,10 @@ spec:
   template:
     metadata:
       labels:
-        app: nodeapp 
+        app: nginx 
     spec:
       containers:
       - name: ngnix
         image: nginx:latest
         ports:
-        - containerPort: 3000
+        - containerPort: 80
