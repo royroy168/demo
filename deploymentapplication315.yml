@@ -19,5 +19,6 @@ spec:
       containers:
       - name: alpine
         image: alpine:3.15
-        ports:
-        - containerPort: 3000
+        stdin: true
+        tty: true
+
